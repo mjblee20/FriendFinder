@@ -10,8 +10,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 
-require("./routes/apiRoutes.js/index.js")(app);
-require("./routes/htmlRoutes.js/index.js")(app);
+require(".app/routes/apiRoutes.js/")(app);
+require(".app/routes/htmlRoutes.js/")(app);
 
 
 // global variables
@@ -75,11 +75,11 @@ app.get("/api/characters/:character", function(req, res) {
   return res.json(false);
 });
 
-// Create New Characters - takes in JSON input
-app.post("/api/characters", function(req, res) {
+// Create new friend info - takes in JSON input
+app.post("/api/friends", function(req, res) {
   // req.body hosts is equal to the JSON post sent from the user
   // This works because of our body parsing middleware
-  var newcharacter = req.body;
+  var newFriend = req.body;
   console.log("CHAR NAME: ", newcharacter.name);
   // Using a RegEx Pattern to remove spaces from newCharacter
   // You can read more about RegEx Patterns later https://www.regexbuddy.com/regex.html
