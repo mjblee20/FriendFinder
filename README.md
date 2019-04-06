@@ -4,7 +4,7 @@ This app helps you find compatible friends.
 
 ## Function
 
-This app selects an individual in the database that has similar values and moral compass as the person who entered the survey. 
+This app selects one individual in the database that has most similarity with the person who completed the survey. 
 
 ## Focus
 
