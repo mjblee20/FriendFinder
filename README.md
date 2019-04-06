@@ -1,6 +1,6 @@
 # friends
 
-####This app helps you find compatible friends.
+This app helps you find compatible friends.
 
 ## Function
 
