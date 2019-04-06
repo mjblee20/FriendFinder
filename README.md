@@ -13,3 +13,10 @@ This app selects an individual in the database that has similar values and moral
 
 ## Heroku Link
 [Heroku Page](https://compatiblefriendsearch.herokuapp.com/)
+
+## Future Development
+
+* Add a navigation bar with links back to homepage and the available database
+* Create a html page with all user's image and name
+
+
